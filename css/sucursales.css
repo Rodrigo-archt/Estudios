@@ -1,0 +1,213 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: black;
+}
+
+.icons{
+    background-color: #fcf700;
+}
+
+.icons a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    margin: 5 5px 5px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transition: all .5s ease;
+}
+
+.icons a:hover{
+    background-color: #ffffff;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+}
+
+ul li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+    transition: 0.3s;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+.image {
+    width: 100%;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+}
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.transparent{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 20px;
+}
+.column {
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #929292;
+    width: 30%;
+    text-align: center;
+}
+.column img {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.column button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.column button:hover {
+    background-color: #0056b3;
+}
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px; 
+            padding: 40px; 
+            background-color: #333;
+            color: white;
+        }
+        
+        .footer-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .footer-column h1 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        
+        .footer-column p {
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        
+        .icon {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .icon i {
+            font-size: 24px;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        ul li {
+            margin-bottom: 10px;
+        }
+        
+        ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer-column form {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .footer-column input[type="email"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            flex: 1;
+        }
+        
+        .footer-column button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .footer-column button:hover {
+            background-color: #0056b3;
+        }
